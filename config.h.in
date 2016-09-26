@@ -1,0 +1,286 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* target architecture */
+#undef ARCH
+
+/* caching allocator */
+#undef CACHING_ALLOCATOR
+
+/* Primary console needs CR */
+#undef CONSOLE_NEED_CR
+
+/* cpu ticks per second */
+#undef CPU_FREQ
+
+/* Debugging (kpdebug) */
+#undef DEBUG
+
+/* device index */
+#undef DEVICE_INDEX
+
+/* order of firmware stack per CPU (size=1<<order) */
+#undef FWSTACKORDER
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if the system has the `noinline' function attribute */
+#undef HAVE_FUNC_ATTRIBUTE_NOINLINE
+
+/* Define to 1 if the system has the `noreturn' function attribute */
+#undef HAVE_FUNC_ATTRIBUTE_NORETURN
+
+/* Define to 1 if the system has the `visibility' function attribute */
+#undef HAVE_FUNC_ATTRIBUTE_VISIBILITY
+
+/* Define to 1 if the system has the `weak' function attribute */
+#undef HAVE_FUNC_ATTRIBUTE_WEAK
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if typeof works with your compiler. */
+#undef HAVE_TYPEOF
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if the system has the `used' variable attribute */
+#undef HAVE_VAR_ATTRIBUTE_USED
+
+/* Define to 1 if the system has the `__builtin_bswap32' built-in function */
+#undef HAVE___BUILTIN_BSWAP32
+
+/* Define to 1 if the system has the `__builtin_bswap64' built-in function */
+#undef HAVE___BUILTIN_BSWAP64
+
+/* Define to 1 if the system has the `__builtin_popcount' built-in function */
+#undef HAVE___BUILTIN_POPCOUNT
+
+/* Define to 1 if the system has the `__builtin_popcountl' built-in function
+   */
+#undef HAVE___BUILTIN_POPCOUNTL
+
+/* Define to 1 if the system has the `__builtin_popcountll' built-in function
+   */
+#undef HAVE___BUILTIN_POPCOUNTLL
+
+/* MIPS high RAM base address */
+#undef HIGHRAM_BASE
+
+/* MIPS high RAM size */
+#undef HIGHRAM_SIZE
+
+/* PCI IDE Bus-mastering DMA */
+#undef IDE_BMDMA
+
+/* memory-mapped IO bus as device tree root */
+#undef IO_MEM_ROOT
+
+/* port IO bus as device tree root */
+#undef IO_PORT_ROOT
+
+/* start of kernel address */
+#undef KERN_BASE
+
+/* kernel loading physical address */
+#undef KERN_START
+
+/* start of kernel dynamic mapping */
+#undef KMMAP_BASE
+
+/* kmmap keeper */
+#undef KMMAP_KEEPER
+
+/* size of kernel stack */
+#undef KSTACKSIZE
+
+/* RAM space detection on Loongson 3A port (RECOMMENDED) */
+#undef LOONGSON3A_RAM_DETECTION
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* target machine */
+#undef MACH
+
+/* maximum number of cores */
+#undef MAX_CPUS
+
+/* maximum number of processes */
+#undef MAX_PROCESSES
+
+/* amount of memory installed */
+#undef MEM_SIZE
+
+/* MSIM disk image file name */
+#undef MSIM_DISK_IMG
+
+/* MSIM disk physical address */
+#undef MSIM_DISK_PHYSADDR
+
+/* MSIM firmware binary file name */
+#undef MSIM_FIRMWARE_BIN
+
+/* MSIM keyboard physical address */
+#undef MSIM_KBD_PHYSADDR
+
+/* MSIM printer physical address */
+#undef MSIM_LP_PHYSADDR
+
+/* MSIM IPC device mailbox base address */
+#undef MSIM_ORDER_MAILBOX_BASE
+
+/* order of MSIM IPC device mailbox (size=1<<order) */
+#undef MSIM_ORDER_MAILBOX_ORDER
+
+/* MSIM IPC device physical address */
+#undef MSIM_ORDER_PHYSADDR
+
+/* MSIM real time clock physical address */
+#undef MSIM_RTC_PHYSADDR
+
+/* number of cores */
+#undef NR_CPUS
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* 16K pages (for Loongson 3A) */
+#undef PAGESIZE_16K
+
+/* page allocator */
+#undef PAGE_ALLOCATOR
+
+/* pipe size */
+#undef PIPE_SIZE
+
+/* primary console */
+#undef PRIMARY_CONSOLE
+
+/* primary storage */
+#undef PRIMARY_STORAGE
+
+/* primary timing */
+#undef PRIMARY_TIMING
+
+/* physical memory start point */
+#undef RAM_PHYSBASE
+
+/* start of reserved high address */
+#undef RESERVED_BASE
+
+/* root partition number */
+#undef ROOT_PARTITION_ID
+
+/* non-caching memory object allocator */
+#undef SIMPLE_ALLOCATOR
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* in-kernel test framework */
+#undef TESTS
+
+/* timer interrupt frequency */
+#undef TIMER_FREQ
+
+/* top of user program address space */
+#undef USERTOP
+
+/* MIPS32 ABI and instruction set */
+#undef USE_MIPS32
+
+/* MIPS64r2 ABI and instruction set */
+#undef USE_MIPS64
+
+/* size of user stack */
+#undef USTACKSIZE
+
+/* Version number of package */
+#undef VERSION
+
+/* pseudo-keyword for attribute noinline */
+#undef __noinline
+
+/* pseudo-keyword for attribute noreturn */
+#undef __noreturn
+
+/* pseudo-keyword for attribute used */
+#undef __used
+
+/* pseudo-keyword for attribute visibility */
+#undef __visibility
+
+/* pseudo-keyword for attribute weak */
+#undef __weak
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif
+
+/* Define to the equivalent of the C99 'restrict' keyword, or to
+   nothing if this is not supported.  Do not define if restrict is
+   supported directly.  */
+#undef restrict
+/* Work around a bug in Sun C++: it does not support _Restrict or
+   __restrict__, even though the corresponding Sun C compiler ends up with
+   "#define restrict _Restrict" or "#define restrict __restrict__" in the
+   previous line.  Perhaps some future version of Sun C++ will work with
+   restrict; if so, hopefully it defines __RESTRICT like Sun C does.  */
+#if defined __SUNPRO_CC && !defined __RESTRICT
+# define _Restrict
+# define __restrict__
+#endif
+
+/* Define to __typeof__ if your compiler spells it that way. */
+#undef typeof
+
+/* Define to empty if the keyword `volatile' does not work. Warning: valid
+   code using `volatile' can become incorrect without. Disable with care. */
+#undef volatile

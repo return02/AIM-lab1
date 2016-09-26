@@ -1,0 +1,8 @@
+libentry_la-bootasm.lo: bootasm.S ../../../config.h \
+ ../../../include/arch/i386/mmu.h ../../../include/arch/i386/asm.h
+
+../../../config.h:
+
+../../../include/arch/i386/mmu.h:
+
+../../../include/arch/i386/asm.h:

@@ -1,0 +1,10 @@
+early_init.lo: early_init.c ../../config.h ../../include/sys/types.h \
+ ../../lib/libc/stddef.h ../../include/aim/init.h
+
+../../config.h:
+
+../../include/sys/types.h:
+
+../../lib/libc/stddef.h:
+
+../../include/aim/init.h:

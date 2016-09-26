@@ -1,0 +1,17 @@
+boot_elf-bootmain.o: bootmain.c ../config.h ../include/arch/i386/x86.h \
+ ../include/sys/types.h ../lib/libc/stddef.h ../include/aim/boot.h \
+ ../include/arch/i386/arch-boot.h ../include/elf.h
+
+../config.h:
+
+../include/arch/i386/x86.h:
+
+../include/sys/types.h:
+
+../lib/libc/stddef.h:
+
+../include/aim/boot.h:
+
+../include/arch/i386/arch-boot.h:
+
+../include/elf.h:

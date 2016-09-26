@@ -1,0 +1,3 @@
+entry.lo: entry.S ../../../config.h
+
+../../../config.h:
